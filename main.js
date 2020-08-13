@@ -17,7 +17,7 @@ function table_content(songs, series){
     let content = "";
     for (let i=0; i<songs.length; i++){
         const song = songs[i];
-        if (song["シリーズ"]==series){
+        if (song["シリーズ"]==series && song["作詞"]){
             content += `<tr><td>${num}</td><td>${song["曲名"]}</td><td>${song["作詞"]}</td><td>${song["作曲"]}</td></tr>`;
             num += 1;
         }
@@ -30,7 +30,7 @@ function table_check_content(songs, series){
     let content = "";
     for (let i=0; i<songs.length; i++){
         const song = songs[i];
-        if (song["シリーズ"]==series){
+        if (song["シリーズ"]==series && song["作詞"]){
             content += `<tr><td><input type="checkbox" name="checkbox" value="${song["ID"]}" onChange="onChangeCheckbox(this.value);"></td><td>${song["曲名"]}</td><td>${song["作詞"]}</td><td>${song["作曲"]}</td></tr>`;
             num += 1;
         }
