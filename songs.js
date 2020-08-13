@@ -24401,7 +24401,7 @@ const songs = [
         "シリーズ": "as",
         "曲名": "アクセルレーション",
         "作詞": "Selena Higa",
-        "作曲": "BNGI（Toaki Usami）",
+        "作曲": "Toaki Usami",
         "編曲": "tatsuo・Hideaki Ikawa",
         "オリジナル": "",
         "歌詞": "",
@@ -24413,7 +24413,7 @@ const songs = [
         "ソース": "https://ja.wikipedia.org/wiki/THE_IDOLM@STER%E3%81%AE%E6%A5%BD%E6%9B%B2%E3%81%AE%E4%B8%80%E8%A6%A7",
         "score": {
             "Selena Higa": 1,
-            "BNGI（Toaki Usami）": 1
+            "Toaki Usami": 1
         },
         "scores": [
             {
@@ -24421,7 +24421,7 @@ const songs = [
                 "value": 1
             },
             {
-                "artist": "BNGI（Toaki Usami）",
+                "artist": "Toaki Usami",
                 "value": 1
             }
         ]
@@ -24881,7 +24881,7 @@ const songs = [
         "シリーズ": "as",
         "曲名": "アルティメットアイズ",
         "作詞": "Selena Higa",
-        "作曲": "BNEI（Toaki Usami）",
+        "作曲": "Toaki Usami",
         "編曲": "王子マスター・Bug Fixer",
         "オリジナル": "",
         "歌詞": "",
@@ -24893,7 +24893,7 @@ const songs = [
         "ソース": "https://ja.wikipedia.org/wiki/THE_IDOLM@STER%E3%81%AE%E6%A5%BD%E6%9B%B2%E3%81%AE%E4%B8%80%E8%A6%A7",
         "score": {
             "Selena Higa": 1,
-            "BNEI（Toaki Usami）": 1
+            "Toaki Usami": 1
         },
         "scores": [
             {
@@ -24901,7 +24901,7 @@ const songs = [
                 "value": 1
             },
             {
-                "artist": "BNEI（Toaki Usami）",
+                "artist": "Toaki Usami",
                 "value": 1
             }
         ]
@@ -25321,8 +25321,8 @@ const songs = [
         "シリーズ": "as",
         "曲名": "ヒカリのdestination",
         "作詞": "中村彼方",
-        "作曲": "中野領太（onetrap）",
-        "編曲": "中野領太（onetrap）",
+        "作曲": "中野領太",
+        "編曲": "中野領太",
         "オリジナル": "",
         "歌詞": "",
         "ｱｲﾄﾞﾙ": "",
@@ -25333,7 +25333,7 @@ const songs = [
         "ソース": "https://ja.wikipedia.org/wiki/THE_IDOLM@STER%E3%81%AE%E6%A5%BD%E6%9B%B2%E3%81%AE%E4%B8%80%E8%A6%A7",
         "score": {
             "中村彼方": 1,
-            "中野領太（onetrap）": 1
+            "中野領太": 1
         },
         "scores": [
             {
@@ -25341,7 +25341,7 @@ const songs = [
                 "value": 1
             },
             {
-                "artist": "中野領太（onetrap）",
+                "artist": "中野領太",
                 "value": 1
             }
         ]
@@ -25381,8 +25381,8 @@ const songs = [
         "シリーズ": "as",
         "曲名": "バベルシティ・グレイス",
         "作詞": "真崎エリカ",
-        "作曲": "南田健吾（onetrap）",
-        "編曲": "南田健吾（onetrap）",
+        "作曲": "南田健吾",
+        "編曲": "南田健吾",
         "オリジナル": "",
         "歌詞": "",
         "ｱｲﾄﾞﾙ": "",
@@ -25393,7 +25393,7 @@ const songs = [
         "ソース": "https://ja.wikipedia.org/wiki/THE_IDOLM@STER%E3%81%AE%E6%A5%BD%E6%9B%B2%E3%81%AE%E4%B8%80%E8%A6%A7",
         "score": {
             "真崎エリカ": 1,
-            "南田健吾（onetrap）": 1
+            "南田健吾": 1
         },
         "scores": [
             {
@@ -25401,7 +25401,7 @@ const songs = [
                 "value": 1
             },
             {
-                "artist": "南田健吾（onetrap）",
+                "artist": "南田健吾",
                 "value": 1
             }
         ]
@@ -25441,8 +25441,8 @@ const songs = [
         "シリーズ": "as",
         "曲名": "夢咲きAfter school",
         "作詞": "古屋真",
-        "作曲": "南田健吾（onetrap）",
-        "編曲": "南田健吾（onetrap）",
+        "作曲": "南田健吾",
+        "編曲": "南田健吾",
         "オリジナル": "",
         "歌詞": "",
         "ｱｲﾄﾞﾙ": "",
@@ -25453,7 +25453,7 @@ const songs = [
         "ソース": "https://ja.wikipedia.org/wiki/THE_IDOLM@STER%E3%81%AE%E6%A5%BD%E6%9B%B2%E3%81%AE%E4%B8%80%E8%A6%A7",
         "score": {
             "古屋真": 1,
-            "南田健吾（onetrap）": 1
+            "南田健吾": 1
         },
         "scores": [
             {
@@ -25461,7 +25461,7 @@ const songs = [
                 "value": 1
             },
             {
-                "artist": "南田健吾（onetrap）",
+                "artist": "南田健吾",
                 "value": 1
             }
         ]
@@ -25561,8 +25561,8 @@ const songs = [
         "シリーズ": "as",
         "曲名": "SNOW FLAKES MEMORIES",
         "作詞": "松井洋平",
-        "作曲": "中野領太（onetrap）",
-        "編曲": "中野領太（onetrap）",
+        "作曲": "中野領太",
+        "編曲": "中野領太",
         "オリジナル": "",
         "歌詞": "",
         "ｱｲﾄﾞﾙ": "",
@@ -25573,7 +25573,7 @@ const songs = [
         "ソース": "https://ja.wikipedia.org/wiki/THE_IDOLM@STER%E3%81%AE%E6%A5%BD%E6%9B%B2%E3%81%AE%E4%B8%80%E8%A6%A7",
         "score": {
             "松井洋平": 1,
-            "中野領太（onetrap）": 1
+            "中野領太": 1
         },
         "scores": [
             {
@@ -25581,7 +25581,7 @@ const songs = [
                 "value": 1
             },
             {
-                "artist": "中野領太（onetrap）",
+                "artist": "中野領太",
                 "value": 1
             }
         ]
@@ -26121,7 +26121,7 @@ const songs = [
         "シリーズ": "as",
         "曲名": "Twinkle way",
         "作詞": "渡邊亜希子",
-        "作曲": "鍋谷卓摩（luxis）",
+        "作曲": "鍋谷卓摩",
         "編曲": "伊藤賢",
         "オリジナル": "",
         "歌詞": "",
@@ -26133,7 +26133,7 @@ const songs = [
         "ソース": "https://ja.wikipedia.org/wiki/THE_IDOLM@STER%E3%81%AE%E6%A5%BD%E6%9B%B2%E3%81%AE%E4%B8%80%E8%A6%A7",
         "score": {
             "渡邊亜希子": 1,
-            "鍋谷卓摩（luxis）": 1
+            "鍋谷卓摩": 1
         },
         "scores": [
             {
@@ -26141,7 +26141,7 @@ const songs = [
                 "value": 1
             },
             {
-                "artist": "鍋谷卓摩（luxis）",
+                "artist": "鍋谷卓摩",
                 "value": 1
             }
         ]
@@ -27511,8 +27511,8 @@ const songs = [
         "シリーズ": "as",
         "曲名": "arcadia",
         "作詞": "白瀬彩",
-        "作曲": "上松範康（Elements Garden）",
-        "編曲": "上松範康（Elements Garden）、中山真斗（Elements Garden）",
+        "作曲": "上松範康",
+        "編曲": "上松範康、中山真斗",
         "オリジナル": "",
         "歌詞": "",
         "ｱｲﾄﾞﾙ": "",
@@ -27523,7 +27523,7 @@ const songs = [
         "ソース": "https://ja.wikipedia.org/wiki/THE_IDOLM@STER%E3%81%AE%E6%A5%BD%E6%9B%B2%E3%81%AE%E4%B8%80%E8%A6%A7",
         "score": {
             "白瀬彩": 1,
-            "上松範康（Elements Garden）": 1
+            "上松範康": 1
         },
         "scores": [
             {
@@ -27531,7 +27531,7 @@ const songs = [
                 "value": 1
             },
             {
-                "artist": "上松範康（Elements Garden）",
+                "artist": "上松範康",
                 "value": 1
             }
         ]
@@ -28852,7 +28852,7 @@ const songs = [
         "曲名": "SMOKY FRUITS",
         "作詞": "uRy",
         "作曲": "uRy",
-        "編曲": "高田龍一（MONACA）",
+        "編曲": "高田龍一",
         "オリジナル": "",
         "歌詞": "",
         "ｱｲﾄﾞﾙ": "",
@@ -28961,8 +28961,8 @@ const songs = [
         "シリーズ": "as",
         "曲名": "CRIMSON LOVERS",
         "作詞": "只野菜摘",
-        "作曲": "広川恵一（MONACA）",
-        "編曲": "広川恵一（MONACA）",
+        "作曲": "広川恵一",
+        "編曲": "広川恵一",
         "オリジナル": "",
         "歌詞": "",
         "ｱｲﾄﾞﾙ": "",
@@ -28973,7 +28973,7 @@ const songs = [
         "ソース": "https://ja.wikipedia.org/wiki/THE_IDOLM@STER%E3%81%AE%E6%A5%BD%E6%9B%B2%E3%81%AE%E4%B8%80%E8%A6%A7",
         "score": {
             "只野菜摘": 1,
-            "広川恵一（MONACA）": 1
+            "広川恵一": 1
         },
         "scores": [
             {
@@ -28981,7 +28981,7 @@ const songs = [
                 "value": 1
             },
             {
-                "artist": "広川恵一（MONACA）",
+                "artist": "広川恵一",
                 "value": 1
             }
         ]
@@ -30526,8 +30526,8 @@ const songs = [
         "シリーズ": "as",
         "曲名": "M@STERPIECE",
         "作詞": "yura",
-        "作曲": "神前暁（MONACA）",
-        "編曲": "神前暁（MONACA）、高田龍一（MONACA）",
+        "作曲": "神前暁",
+        "編曲": "神前暁、高田龍一",
         "オリジナル": "",
         "歌詞": "",
         "ｱｲﾄﾞﾙ": "",
@@ -30538,7 +30538,7 @@ const songs = [
         "ソース": "https://ja.wikipedia.org/wiki/THE_IDOLM@STER%E3%81%AE%E6%A5%BD%E6%9B%B2%E3%81%AE%E4%B8%80%E8%A6%A7",
         "score": {
             "yura": 1,
-            "神前暁（MONACA）": 1
+            "神前暁": 1
         },
         "scores": [
             {
@@ -30546,7 +30546,7 @@ const songs = [
                 "value": 1
             },
             {
-                "artist": "神前暁（MONACA）",
+                "artist": "神前暁",
                 "value": 1
             }
         ]
@@ -30586,8 +30586,8 @@ const songs = [
         "シリーズ": "as",
         "曲名": "ラムネ色 青春",
         "作詞": "モモキエイジ",
-        "作曲": "田中秀和（MONACA）",
-        "編曲": "田中秀和（MONACA）",
+        "作曲": "田中秀和",
+        "編曲": "田中秀和",
         "オリジナル": "",
         "歌詞": "",
         "ｱｲﾄﾞﾙ": "",
@@ -30598,7 +30598,7 @@ const songs = [
         "ソース": "https://ja.wikipedia.org/wiki/THE_IDOLM@STER%E3%81%AE%E6%A5%BD%E6%9B%B2%E3%81%AE%E4%B8%80%E8%A6%A7",
         "score": {
             "モモキエイジ": 1,
-            "田中秀和（MONACA）": 1
+            "田中秀和": 1
         },
         "scores": [
             {
@@ -30606,7 +30606,7 @@ const songs = [
                 "value": 1
             },
             {
-                "artist": "田中秀和（MONACA）",
+                "artist": "田中秀和",
                 "value": 1
             }
         ]
