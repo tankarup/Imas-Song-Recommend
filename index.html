@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>アイマスシリーズおすすめ曲検索</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <style>
+            input[type=checkbox] {
+                transform: scale(1.5);
+            }
+            html {height:100%}
+            body {height:100%}
+            #main {height:100%}
+            .song_list {width:100%;}
+            .song_table {height:20%;}
+        </style>
+    </head>
+<body>
+    <div id="main">
+        <nav class="navbar bg-light navbar-dark" style="margin-bottom:5px;">
+            <h1 class="text-dark"><img src="5stars.png" height="50px">アイマスシリーズおすすめ曲検索</h1>
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle dropdown-menu-right" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">事務所を選択</button>
+                <ul class="dropdown-menu">
+                    <li><button class="dropdown-item" value="">-</button></li>
+                    <li><button class="dropdown-item" value="as">765(AS)</button></li>
+                    <li><button class="dropdown-item" value="cg">346</button></li>
+                    <li><button class="dropdown-item" value="ml">765(ミリオン)</button></li>
+                    <li><button class="dropdown-item" value="sm">315</button></li>
+                    <li><button class="dropdown-item" value="sc">283</button></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="contents" class="mx-auto">
+            <div id="as" name="song_list" class="container float-left col-4">
+                <div name="song_table" class="table-responsive">
+                    <h2 style="background-color: #F34E6C;" class="text-light text-center">765プロオールスターズ</h2>
+                    <div id="as_songs"></div>
+                </div>
+            </div>
+            <div id="cg" name="song_list" class="container float-left  col-4">
+                <div name="song_table" class="table-responsive">
+                    <h2 style="background-color: #2581C7;" class="text-light text-center">シンデレラガールズ</h2>
+                    <div id="cg_songs"></div>
+                </div>
+            </div>
+            <div id="ml" name="song_list" class="container float-left col-4">
+                <div name="song_table" class="table-responsive">
+                    <h2 style="background-color: #FFC20B;" class="text-dark text-center">ミリオンライブ！</h2>
+                    <div id="ml_songs"></div>
+                </div>
+            </div>
+            <div id="sm" name="song_list" class="container float-left col-4">
+                <div name="song_table" class="table-responsive">
+                    <h2 style="background-color: #11BE93;" class="text-light text-center">SideM</h2>
+                    <div id="sm_songs"></div>
+                </div>
+            </div>
+            <div id="sc" name="song_list" class="container float-left col-4">
+                <div name="song_table" class="table-responsive">
+                    <h2 style="background-color: #8DBAFF;" class="text-dark text-center">シャイニーカラーズ</h2>
+                    <div id="sc_songs"></div>
+                </div>
+            </div>
+
+            <div id="gr" class="container float-left col-4">
+                <h2 class="alert-secondary text-center">アーティスト集計</h2>
+                <canvas id="graph" height="200" width="300" class=""></canvas>
+
+            </div>
+        </div>
+        <div class="container float-left small">
+            <ul>
+                <li>使い方
+                    <ol>
+                        <li>右上のメニューから事務所を選びます。</li>
+                        <li>チェックボックスが表示されるので、好きな曲を選びます。何曲でもどうぞ。</li>
+                        <li>選択内容に応じて、他事務所のおススメの楽曲が表示されます(作詞、作曲家が共通している曲を表示しています)。</li>
+                        <li>気になった曲を買いに行きましょう。</li>
+                    </ol>
+                </li>
+                <li>楽曲データは、以下を使用しています。ありがとうございます。(いずれも2020/8/13現在のデータ)
+                    <ul>
+                        <li>765AS：Wikipedia<a href="https://ja.wikipedia.org/wiki/THE_IDOLM@STER%E3%81%AE%E6%A5%BD%E6%9B%B2%E3%81%AE%E4%B8%80%E8%A6%A7">THE IDOLM@STERの楽曲の一覧</a>
+                        <li>シンデレラガールズ、ミリオンライブ！：ふじわらはじめ様作成の<a href="https://fujiwarahaji.me/">デレマス・ミリマス・シャニマス楽曲DB</a>
+                        <li>SideM：Wikipedia <a href="https://ja.wikipedia.org/wiki/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC_SideM%E3%81%AE%E6%A5%BD%E6%9B%B2%E3%81%AE%E4%B8%80%E8%A6%A7">アイドルマスター SideMの楽曲の一覧</a></li>
+                        <li>シャイニーカラーズ：<a href="https://www.lantis.jp/shinycolors/">Lantis公式ホームページ</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <p></p>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" type="text/javascript"></script>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="songs.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
