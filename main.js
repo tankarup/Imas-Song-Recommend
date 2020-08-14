@@ -6,7 +6,7 @@ let selected_series = [];
 
 
 const table_head =
-`<table class="table table-striped table-sm overflow-auto table-responsive" style="height:370px;">
+`<table class="songs_table table table-striped table-sm overflow-auto table-responsive" style="height:370px;">
 <thead><tr><th></th><th>曲名</th><th>作詞</th><th>作曲</th></tr></thead>
 <tbody class="small">`;
 const table_foot = 
@@ -202,15 +202,21 @@ function onChangeCheckbox(){
     your_scores = updateScores();
     updateGraph();
     updateRecommends();
+    $(window).resize();
 }
 
 $(function(){
-
-
     $('.dropdown-menu .dropdown-item').click(function(){
         var visibleItem = $('.dropdown-toggle', $(this).closest('.dropdown'));
         visibleItem.text($(this).text());
         selected_series[0]=$(this).attr("value");
         setSongSelection(selected_series[0]);
+        $(window).resize();
     });
+
+    $(window).resize(function () {
+        hsize = Math.round(($(window).height()-80)/2-50);
+        $(".songs_table").css("height", hsize + "px");
+      });
+    $(window).resize();
 });
